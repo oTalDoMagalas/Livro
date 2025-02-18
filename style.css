@@ -170,4 +170,162 @@ footer a:hover {
   text-decoration: underline;
 }
 
+.botao{
+  border-radius: 4%;
+  background-color: #27a8ff;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 480px;
+  left: 670px;
+  justify-content: center;
+  background-color: #5f78f8;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 40px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  display: inline-block;
+  
+}
+.botao:hover {
+  background-color: #1e90ff;
+  transform: scale(1.1);
+}
+.botao:active {
+  transform: scale(0.95);
+}
+
 @media (max-width: 480px)
+
+@media (max-width: 768px) {
+  header h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+  }
+
+  nav {
+      display: none;
+  }
+
+  main {
+      margin-top: 140px;
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+
+  .content {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+  }
+
+  .content img {
+      width: 90%;
+      height: auto;
+  }
+
+  .section-autor {
+      margin-top: 40px;
+  }
+
+  section {
+      flex-direction: column;
+      align-items: center;
+      width: 90%;
+      margin: 0 auto;
+      margin-top: 20px;
+  }
+
+  .quadrado {
+      width: 100%;
+      margin-bottom: 20px;
+      text-align: center;
+  }
+
+  /* Esconder os 'aside' em telas menores */
+  .aside1,
+  .aside2 {
+      display: none;
+  }
+
+  /* Ajustes para a seção fotinha */
+  .fotinha {
+      display: none;
+  }
+
+  footer {
+      font-size: 1em;
+      padding: 10px;
+      bottom: 0;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 480px) {
+  header h1 {
+      font-size: 1.8em;
+      margin-bottom: 10px;
+  }
+
+  nav {
+      display: none;
+  }
+
+  main {
+      margin-top: 120px;
+      margin-left: 15px;
+      margin-right: 15px;
+  }
+
+  .content {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+  }
+
+  .content img {
+      width: 100%;
+      height: auto;
+  }
+
+  section {
+      flex-direction: column;
+      align-items: center;
+      width: 95%;
+      margin: 0 auto;
+      margin-top: 15px;
+  }
+
+  .quadrado {
+      width: 90%;
+      margin-bottom: 15px;
+  }
+
+  /* Esconder os 'aside' em telas menores */
+  .aside1,
+  .aside2 {
+      display: none;
+  }
+
+  /* Ajustes para a seção fotinha */
+  .fotinha {
+      margin-top: 10%;
+  }
+
+  .fotinhas img {
+      width: 80%;
+      max-width: 180px;
+      height: auto;
+  }
+
+  footer {
+      font-size: 0.9em;
+      padding: 5px;
+  }
+}
