@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
@@ -7,20 +10,22 @@
 .titulo {
   font-family: "Barlow Semi Condensed", sans-serif;
   text-align: center;
-  background-color: #98430c;
+  background-color: #5f78f8;
+  padding-top: 20px;
+  color: black;
+}
+
+nav{
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  position: relative;
 }
 a {
   text-decoration: none;
   color: white;
-  margin-left: 20px;
+  margin-left: 50px;
 }
 #diario {
-  width: 250px;
-  position: relative;
-  left: 955px;
-  top: 80%;
-}
-#buzz {
   width: 250px;
   right: 20px;
   left: 330px;
@@ -37,11 +42,132 @@ a {
   right: 20px;
   left: 330px;
 }
-.nome{
-    margin-left: 90px;
-    text-align: center;
-    margin-top: 15px;
+.nome {
+  margin-left: 90px;
+  text-align: center;
+  margin-top: 15px;
 }
-.pronta{
-    text-align: left;
+.prota {
+  width: 250px;
+  position: absolute;
+  left: 350px;
+  top: 20%;
 }
+.Sinopse {
+  width: 550px;
+  position: absolute;
+  left: 675px;
+  top: 20%;
+}
+body {
+  background-color: #cccccc;
+}
+.autor {
+position: relative;
+background-color: #5f78f8;
+left: 0px;
+top: 27px;
+padding-top: 10px;
+height: 70vh;
+align-items: center;
+display: flex;
+justify-content: flex-end;
+padding-right: 90px;
+}
+img {
+  width: 26%; /* 50% do tamanho original */
+  height: auto; /* Mantém a proporção */
+  left: 300px;
+}
+.jeff{
+  width: 550px;
+  position: absolute;
+  left: 575px;
+  top: 635px;
+  left: 90px;
+  font-size: 20px;
+}
+.livros{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  position: relative;
+}
+.container {
+  display: flex; /* Exibe os itens em linha */
+  justify-content: center; /* Centraliza os itens */
+  gap: 50px; /* Espaço entre as imagens */
+  padding: 20px;
+}
+
+.image-item img {
+  width: 200px; /* Aumenta o tamanho da imagem */
+  height: auto;
+  border-radius: 5px; /* Arredonda levemente os cantos */
+  transition: transform 0.3s ease-in-out; /* Adiciona um efeito suave ao passar o mouse */
+  margin-top: 75px;
+}
+
+.image-item img:hover {
+  transform: scale(1.1); /* Aumenta a imagem ao passar o mouse */
+}
+
+.mais{
+  width: 550px;
+  position: absolute;
+  left: 575px;
+  top: 985px;
+  left: 510px;
+  font-size: 20px;
+}
+.opniao {
+  width: 322px;
+  position: absolute;
+  left: 675px;
+  top: 65%;
+}
+h1{
+  font-size: 25px;
+  margin-bottom: 10.5px;
+}
+
+section p, h3, .nome p{
+  font-family: "Rubik", serif;
+}
+
+nav a{
+  font-family: "Barlow", serif;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background: #5f78f8;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
+
+footer a {
+  color: #cccccc;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 480px)
