@@ -31,7 +31,7 @@
     text-align: center;
     /* Centralizar */
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -40,10 +40,14 @@
 }
 
 .item .fruta {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 20%;
-    position: absolute;
-    top: 0;
-    z-index: 3;
+}
+.Pagina{
+    left: 30%;
 }
 .item .refri{
     /* Centralizar */
@@ -81,5 +85,17 @@
 #proximo{
     right: 30px;
 }
-
-
+.item p{
+    position: absolute;
+    width: 30vw;
+    top: 215px;
+    left: 720px;
+    color: #ffffff;
+    font-size: 22px;
+}
+.pg{
+    position: absolute;
+    top: 150px;
+    height: 65%;
+    left: 265px;
+}

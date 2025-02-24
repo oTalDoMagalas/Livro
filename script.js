@@ -42,6 +42,3 @@ function anteriorSlide() {
 
 next.onclick = proximoSlide;
 prev.onclick = anteriorSlide;
-
-// Faz a troca automática a cada 3 segundos
-setInterval(proximoSlide, 3000);
